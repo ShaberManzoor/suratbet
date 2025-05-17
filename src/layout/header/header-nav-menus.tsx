@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 // import menu_data from "../../data/menu-data";
 
 const menu_data = [

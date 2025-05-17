@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 import { BtnBgTwo } from '../svg';
 
 // brands
-const brands:string[] = [
-    '/assets/img/brand/brand_logo01.png',
-    '/assets/img/brand/brand_logo02.png',
-    '/assets/img/brand/brand_logo03.png'
-]
+// const brands:string[] = [
+//     '/assets/img/brand/brand_logo01.png',
+//     '/assets/img/brand/brand_logo02.png',
+//     '/assets/img/brand/brand_logo03.png'
+// ]
 const HeroBanner = () => {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+//   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return (
     <MouseParallaxContainer>
      <section id='home' className="slider__area slider__bg" style={{backgroundImage:`url(/assets/img/slider/slider_bg.jpg)`}}>
