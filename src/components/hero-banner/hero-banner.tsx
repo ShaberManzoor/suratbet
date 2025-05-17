@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import { MouseParallaxContainer,MouseParallaxChild } from 'react-parallax-mouse';
 import { NavLink } from 'react-router-dom';
 import { BtnBgTwo } from '../svg';

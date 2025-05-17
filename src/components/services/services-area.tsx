@@ -2,12 +2,16 @@ import {useState} from 'react';
 import { NavLink } from 'react-router-dom';
 
 // service images
-const service_images = [
-  '/assets/img/others/services_img01.jpg',
-  '/assets/img/others/services_img02.jpg',
-  '/assets/img/others/services_img03.jpg',
-  '/assets/img/others/services_img04.jpg'
+const service_images: string[] = [
+  "/assets/faqs-1.jpeg",
+  "/assets/faqs-2.jpeg",
+  "/assets/faqs-3.jpeg",
+  "/assets/faqs-1.jpeg",
+  "/assets/faqs-2.jpeg",
+  "/assets/faqs-3.jpeg",
+  "/assets/faqs-1.jpeg",
 ];
+
 const service_items: {
   id: number;
   icon: string;
